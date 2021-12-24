@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Tasks from './components/Tasks'
 
 function App() {
   const appName = 'Task Tracker';
@@ -10,6 +11,7 @@ function App() {
      {/* <h2> So, {x ? 'Yes' : 'No'}. It`s is me. </h2>
      <Header title='How are you?'/> */}
      <Header/> 
+     <Tasks/> 
     </div>
   );
 }
